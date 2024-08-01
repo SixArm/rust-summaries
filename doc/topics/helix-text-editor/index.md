@@ -2,7 +2,7 @@
 
 <https://helix-editor.com/>
 
-Helix is terminal-based text editor written in Rust, with excellent capabilities for programming in Rust. Helix is inpsired by Neovim and Kakoune, and is similar in ways to vim, emacs, and nano.
+Helix is terminal-based text editor written in Rust, with excellent capabilities for programming in Rust. Helix is inspired by Neovim and Kakoune, and is similar in ways to vim, emacs, and nano.
 
 Key benefits:
 

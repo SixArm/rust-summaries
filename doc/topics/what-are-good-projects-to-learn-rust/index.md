@@ -4,7 +4,7 @@ Learning Rust can be a rewarding experience, and contributing to open-source pro
 
 * Rustlings is a collection of small exercises designed to help you learn Rust syntax and concepts. It covers topics like ownership, borrowing, and macros, and is a great way to start.
 
-* Rust Game Development Working Group is a community of programmers working on game libraries and tools. This group can be a great way to learn about Rust's capabilties for gaming and graphics programming.
+* Rust Game Development Working Group is a community of programmers working on game libraries and tools. This group can be a great way to learn about Rust's capabilities for gaming and graphics programming.
 
 * Servo is a modern, high-performance browser engine written in Rust. It is a complex project that touches on many different aspects of systems programming, including concurrency, memory management, and performance optimization.
 

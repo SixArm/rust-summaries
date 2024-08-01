@@ -1,7 +1,7 @@
 use regex::Regex;
 
 fn main() {
-    // Find the first occurance of a digit char and word char
+    // Find the first occurrence of a digit char and word char
     let r = Regex::new(r"(\d)(\w)").unwrap();
     let captures = r.captures("a1b2c3").unwrap();
     println!("{:?}", captures)

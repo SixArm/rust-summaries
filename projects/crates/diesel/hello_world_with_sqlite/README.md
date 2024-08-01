@@ -15,7 +15,7 @@ To install one or more of these on macOS via brew:
 
 ## Setup
 
-This demonstration uses SQLite because it's the easiest portable database, and uses the SQLite bundled database rather than any SQLite system-wide databse.
+This demonstration uses SQLite because it's the easiest portable database, and uses the SQLite bundled database rather than any SQLite system-wide database.
 
 Run:
 

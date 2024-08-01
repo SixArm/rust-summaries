@@ -1,6 +1,6 @@
 # Rust for cryptography and encryption
 
-Rust is an excellent choice for cryptography and encryption, because of Rust's performance, memory ownership model,  concurrency capabilties, strong typing, and low-level control.
+Rust is an excellent choice for cryptography and encryption, because of Rust's performance, memory ownership model,  concurrency capabilities, strong typing, and low-level control.
 
 Rust's performance is equivalent to C and C++. In cryptography applications, where the speed of execution matters significantly, Rust provides an advantage over many other programming languages, especially those that require a runtime or interpretation, such as Python.
 

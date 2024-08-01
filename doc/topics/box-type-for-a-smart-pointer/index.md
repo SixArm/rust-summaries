@@ -17,5 +17,5 @@ let my_box = Box::new(42);
 
 This creates a new `Box` that contains the value 42. When `my_box` goes out of scope, the memory it allocated will be automatically deallocated.
 
-Overall, `Box` is a useful tool for allocating objects on the heap, transfering ownership between parts of your program, and using automatic deallocation to help prevent memory-related bugs.
+Overall, `Box` is a useful tool for allocating objects on the heap, transferring ownership between parts of your program, and using automatic deallocation to help prevent memory-related bugs.
 

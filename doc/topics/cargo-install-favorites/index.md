@@ -2,7 +2,7 @@
 
 <https://github.com/sixarm/cargo-install-favorites>
 
-The `cargo-install-favorites` shell script is a list of our favorite Rust projects for use on our daily machines, such as enhanced command line utilties. Here are highlights.
+The `cargo-install-favorites` shell script is a list of our favorite Rust projects for use on our daily machines, such as enhanced command line utilities. Here are highlights.
 
 **bat**: Show terminal text with highlights, git integration, fzf. Like `cat`.
 
@@ -22,7 +22,7 @@ The `cargo-install-favorites` shell script is a list of our favorite Rust projec
 
 **gping**: Graphical ping network tracer, plus multiple hosts. Like `ping`.
 
-**helix**: Terminal text editor, with modern capabilties built-in. Like `vim`.
+**helix**: Terminal text editor, with modern capabilities built-in. Like `vim`.
 
 **just**: Command runner for project-specific tasks. Like `make`.
 

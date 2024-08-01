@@ -24,7 +24,7 @@ async fn main() {
 }
 ```
 
-In this example, we define a web service that receieves HTTP GET requests, and responds with "Hello, World!".
+In this example, we define a web service that receives HTTP GET requests, and responds with "Hello, World!".
 
 We define an asynchronous function `hello`. It returns the static string "Hello, World!".
 

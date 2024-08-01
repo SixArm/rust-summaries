@@ -28,7 +28,7 @@ fn main() -> std::io::Result<()> {
         metadata.len(),
         metadata.permissions(),
     );
-    println!("File len:{}, permisisons:{}", len, permissions);
+    println!("File len:{}, permissions:{}", len, permissions);
     Ok(())
 }
 ```

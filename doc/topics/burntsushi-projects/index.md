@@ -8,4 +8,4 @@
 
 **walkdir** is cross platform Rust library for efficiently walking a directory recursively. Comes with support for following symbolic links, controlling the number of open file descriptors and efficient mechanisms for pruning the entries in the directory tree.
 
-**xsv** is a command line program for indexing, slicing, analyzing, splitting, and joining CSV files. Commands should be simple, fast and composable. The xsv command can also concatenate, flatten, formatin, partition, sample, search, slice, sort, and more.
+**xsv** is a command line program for indexing, slicing, analyzing, splitting, and joining CSV files. Commands should be simple, fast and composable. The xsv command can also concatenate, flatten, formation, partition, sample, search, slice, sort, and more.

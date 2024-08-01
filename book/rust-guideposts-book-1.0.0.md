@@ -129,7 +129,7 @@ Anyone can edit these guideposts to improve them, such as to edit an existing pa
 
 ### Git repository
 
-All the work is available via our GitHub repostory.
+All the work is available via our GitHub repository.
 
 Link: <https://github.com/sixarm/rust-guideposts>
 
@@ -355,7 +355,7 @@ Learning Rust can be a rewarding experience, and contributing to open-source pro
 
 * Rustlings is a collection of small exercises designed to help you learn Rust syntax and concepts. It covers topics like ownership, borrowing, and macros, and is a great way to start.
 
-* Rust Game Development Working Group is a community of programmers working on game libraries and tools. This group can be a great way to learn about Rust's capabilties for gaming and graphics programming.
+* Rust Game Development Working Group is a community of programmers working on game libraries and tools. This group can be a great way to learn about Rust's capabilities for gaming and graphics programming.
 
 * Servo is a modern, high-performance browser engine written in Rust. It is a complex project that touches on many different aspects of systems programming, including concurrency, memory management, and performance optimization.
 
@@ -814,7 +814,7 @@ Overall, zero-cost abstractions are an important aspect of Rust's design, and th
 
 ## Zero-cost abstractions - example
 
-Here's an example of zero-cost abstrations:
+Here's an example of zero-cost abstractions:
 
 ```
 fn add<T: std::ops::Add<Output=T>>(x: T, y: T) -> T {
@@ -1038,7 +1038,7 @@ let my_box = Box::new(42);
 
 This creates a new `Box` that contains the value 42. When `my_box` goes out of scope, the memory it allocated will be automatically deallocated.
 
-Overall, `Box` is a useful tool for allocating objects on the heap, transfering ownership between parts of your program, and using automatic deallocation to help prevent memory-related bugs.
+Overall, `Box` is a useful tool for allocating objects on the heap, transferring ownership between parts of your program, and using automatic deallocation to help prevent memory-related bugs.
 
 
 
@@ -1947,7 +1947,7 @@ assert_starts_with!(&a, &b);
 
 The `regex!` macro takes a string literal and returns an expression that evaluates to a `&'static Regex`. This macro can be useful to avoid the problem of compiling a regex on every loop iteration.
 
-The `regex!` macro capabilties are provided by the `once_cell` crate and `once-cell-regex` crate.
+The `regex!` macro capabilities are provided by the `once_cell` crate and `once-cell-regex` crate.
 
 Add to `Cargo.toml`:
 
@@ -1975,7 +1975,7 @@ The `once_cell` crate can provide optimizations in many more ways, such as safe 
 
 There are similar crates if you need related features: 
 
-* If you want asynchronous capabilties, try the `async_once_cell` crate.
+* If you want asynchronous capabilities, try the `async_once_cell` crate.
   
 * If you want spinlocks, try the `lazy_static` crate.
 
@@ -2147,7 +2147,7 @@ let sum = v.iter().fold(0, |acc, x| acc + x);
 println!("The sum is: {}", sum);
 ```
 
-In this example, we create a vector `v` and use the `iter()` method to create an iterator over its elements. We then use the `fold()` method to iterate over the elements, and accumule the sum of all the elements.
+In this example, we create a vector `v` and use the `iter()` method to create an iterator over its elements. We then use the `fold()` method to iterate over the elements, and accumulate the sum of all the elements.
 
 Iterators can also be used in loops, as in the following example:
 
@@ -2251,9 +2251,9 @@ This sets a `panic` hook that logs the `panic` message to the standard error str
 
 Passing a value to a function can be done by value or by reference.
 
-Pass by value means that a copy of the original value is passed to the function. Any changes made to the value inside the function will not affect the original value. In other popular langauges, pass by value is typical for passing primitive data types.
+Pass by value means that a copy of the original value is passed to the function. Any changes made to the value inside the function will not affect the original value. In other popular languages, pass by value is typical for passing primitive data types.
 
-Pass by reference means that a reference to the original value is passed to the function instead of a copy. This allows the function to modify the original value, as it has access to the actual memory location of the value. In other popular langauges, pass by reference is typical for passing object data type pointers.
+Pass by reference means that a reference to the original value is passed to the function instead of a copy. This allows the function to modify the original value, as it has access to the actual memory location of the value. In other popular languages, pass by reference is typical for passing object data type pointers.
 
 For example:
 
@@ -2346,7 +2346,7 @@ fn main() -> std::io::Result<()> {
         metadata.len(),
         metadata.permissions(),
     );
-    println!("File len:{}, permisisons:{}", len, permissions);
+    println!("File len:{}, permissions:{}", len, permissions);
     Ok(())
 }
 ```
@@ -2409,7 +2409,7 @@ fn trim_period<'a>(s: &'a String) -> &'a str {
 ```
 
 
-## Explict lifetimes
+## Explicit lifetimes
 
 Explicit lifetimes are atypical, and only needed when the Rust compiler can't figure out the lifetimes. For this, the developer must write explicit lifetimes so the compiler knows what to do.
 
@@ -2961,7 +2961,7 @@ Rust provides built-in support for benchmarking through its libtest framework, a
 
 As of this writing (2023-03-23) the Rust nightly channel has benchmarking as a feature, whereas the Rust stable channel does not. See below for troubleshooing information about this.
 
-For simple benchmarks, you can use the Bencher crate, which is a simple Rust-stable-compatible benchmark runner. For real-world projects, we suggest the Criterion crate, which is newer, more popular with current Rust teams, and provides more capabilties.
+For simple benchmarks, you can use the Bencher crate, which is a simple Rust-stable-compatible benchmark runner. For real-world projects, we suggest the Criterion crate, which is newer, more popular with current Rust teams, and provides more capabilities.
 
 
 ## Benchmark times - example
@@ -3362,7 +3362,7 @@ Cargo also provides a number of commands to manage a Rust project. Some of the c
 
 <https://github.com/sixarm/cargo-install-favorites>
 
-The `cargo-install-favorites` shell script is a list of our favorite Rust projects for use on our daily machines, such as enhanced command line utilties. Here are highlights.
+The `cargo-install-favorites` shell script is a list of our favorite Rust projects for use on our daily machines, such as enhanced command line utilities. Here are highlights.
 
 **bat**: Show terminal text with highlights, git integration, fzf. Like `cat`.
 
@@ -3382,7 +3382,7 @@ The `cargo-install-favorites` shell script is a list of our favorite Rust projec
 
 **gping**: Graphical ping network tracer, plus multiple hosts. Like `ping`.
 
-**helix**: Terminal text editor, with modern capabilties built-in. Like `vim`.
+**helix**: Terminal text editor, with modern capabilities built-in. Like `vim`.
 
 **just**: Command runner for project-specific tasks. Like `make`.
 
@@ -3447,7 +3447,7 @@ Clippy is highly customizable, allowing developers to enable or disable specific
 
 <https://helix-editor.com/>
 
-Helix is terminal-based text editor written in Rust, with excellent capabilities for programming in Rust. Helix is inpsired by Neovim and Kakoune, and is similar in ways to vim, emacs, and nano.
+Helix is terminal-based text editor written in Rust, with excellent capabilities for programming in Rust. Helix is inspired by Neovim and Kakoune, and is similar in ways to vim, emacs, and nano.
 
 Key benefits:
 
@@ -4000,9 +4000,9 @@ use simple_logger::SimpleLogger;
 
 fn main() {
     SimpleLogger::new().env().init().unwrap();
-    info!("Example info messsage");
+    info!("Example info message");
     warn!("Example warn message");
-    error!("Example errror message");
+    error!("Example error message");
     debug!("Example debug message");
 }
 ```
@@ -4099,7 +4099,7 @@ The OnceCell type is also thread-safe, which means that multiple threads can acc
 
 The OnceCell crate also provides other useful types, such as the unsync::OnceCell<T> type, which is similar to the regular OnceCell<T> but is not thread-safe, and the sync::Lazy<T> type, which is similar to the OnceCell<T> but provides an additional level of indirection that allows for even more efficient initialization and access.
 
-Example of once_cell `Lazy` to intialize a `Regex` regular expression:
+Example of once_cell `Lazy` to initialize a `Regex` regular expression:
 
 ```rust
 use regex::Regex;
@@ -4165,7 +4165,7 @@ Example:
 use regex::Regex;
 
 fn main() {
-    // Find the first occurance of a digit char and word char
+    // Find the first occurrence of a digit char and word char
     let r = Regex::new(r"(\d)(\w)").unwrap();
     let captures = r.captures("a1b2c3").unwrap();
     println!("{:?}", captures)
@@ -5394,7 +5394,7 @@ async fn main() {
 }
 ```
 
-In this example, we define a web service that receieves HTTP GET requests, and responds with "Hello, World!".
+In this example, we define a web service that receives HTTP GET requests, and responds with "Hello, World!".
 
 We define an asynchronous function `hello`. It returns the static string "Hello, World!".
 
@@ -6090,7 +6090,7 @@ https://github.com/joelparkerhenderson
 
 ### Professional
 
-For work, I consult for companies that seek to leverage technology capabilities and business capabilities, such as hands-on coding and growth leadership. Clients range from venture capital startups to Fortune 500 enterprises to nonprofit organziations.
+For work, I consult for companies that seek to leverage technology capabilities and business capabilities, such as hands-on coding and growth leadership. Clients range from venture capital startups to Fortune 500 enterprises to nonprofit organizations.
 
 For technology capabilities, I host repositories for developers who work with architecture decision records, functional specifications, system quality attributes, git workflow recommendations, monorepo versus polyrepo guidance, and hands-on code demonstrations.
 

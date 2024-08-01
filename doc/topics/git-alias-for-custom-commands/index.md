@@ -2,7 +2,7 @@
 
 <https://github.com/GitAlias/GitAlias>
 
-Git alias is a Git built-in capabilty that enables you to configure your own custom Git commands.
+Git alias is a Git built-in capability that enables you to configure your own custom Git commands.
 
 For example, you can create a git alias "s" to represent "status":
 

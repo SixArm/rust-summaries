@@ -1,6 +1,6 @@
 # Zero-cost abstractions - example
 
-Here's an example of zero-cost abstrations:
+Here's an example of zero-cost abstractions:
 
 ```
 fn add<T: std::ops::Add<Output=T>>(x: T, y: T) -> T {

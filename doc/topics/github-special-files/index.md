@@ -2,7 +2,7 @@
 
 <https://github.com/joelparkerhenderson/github-special-files-and-paths>
 
-GitHub uses various special files and file names in order to provide special capabilties, such as the file `README` for the front page of a repository, and `LICENSE` for the automatic linking of a legal notice.
+GitHub uses various special files and file names in order to provide special capabilities, such as the file `README` for the front page of a repository, and `LICENSE` for the automatic linking of a legal notice.
 
 Most of these files can be named various ways, such as `README` for plain text, `README.md` for Markdown, `README.asc` for ASCII Doc, etc.
 
@@ -20,7 +20,7 @@ Here are some of the special files we use in our projects:
 
 `CONTRIBUTING`: Encourage people to contribute to the project.
 
-`CODE_OF_CONDUCT`: Set your community expections and practices.
+`CODE_OF_CONDUCT`: Set your community expectations and practices.
 
 `CITATION.cff`: How should people to cite the project?
 

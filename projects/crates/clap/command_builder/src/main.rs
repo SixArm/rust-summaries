@@ -13,7 +13,7 @@ fn main() {
         .long("input")
         .action(ArgAction::Set)
     )
-    // Example arg that will count its occurences
+    // Example arg that will count its occurrences
     .arg(
         Arg::new("verbose")
         .help("Set the verbosity level")

@@ -241,7 +241,7 @@ EXIT_CONFIG=78
 # draft only, as a request for comments, in version 11.x of this file.
 # These exit codes will be set in version 12.x when it's released.
 #
-# * 80+ for user interation issues
+# * 80+ for user interaction issues
 #
 # * 90+ for access control issues
 #
@@ -249,7 +249,7 @@ EXIT_CONFIG=78
 #
 # * 110+: expected ability issues
 
-# Exit codes 80+ for user interation issues...
+# Exit codes 80+ for user interaction issues...
 
 # Quit
 #
@@ -499,7 +499,7 @@ big() {
 # ```
 #
 # We prefer this log file format for many of our scripts because we prefer
-# logging the additional diagnositc information that we use for our systems:
+# logging the additional diagnostic information that we use for our systems:
 # the datetime with nanosecond-friendly format and timezone-friendly format,
 # unique random id a.k.a. zid, hostname, and process number.
 #
@@ -558,7 +558,7 @@ ask() {
 #   * We prefer timezone width because it aligns with localized systems.
 #     Specifically, we use some systems and tools that require timezones.
 #
-# Note: the custom datetime capabilty relies on the system "date" command,
+# Note: the custom datetime capability relies on the system "date" command,
 # because this script sends the args along to the system "date" command.
 # For example Linux GNU "date" handles this, but macOS BSD "date" doesn't.
 #

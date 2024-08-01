@@ -10,7 +10,7 @@ The OnceCell type is also thread-safe, which means that multiple threads can acc
 
 The OnceCell crate also provides other useful types, such as the unsync::OnceCell<T> type, which is similar to the regular OnceCell<T> but is not thread-safe, and the sync::Lazy<T> type, which is similar to the OnceCell<T> but provides an additional level of indirection that allows for even more efficient initialization and access.
 
-Example of once_cell `Lazy` to intialize a `Regex` regular expression:
+Example of once_cell `Lazy` to initialize a `Regex` regular expression:
 
 ```rust
 use regex::Regex;

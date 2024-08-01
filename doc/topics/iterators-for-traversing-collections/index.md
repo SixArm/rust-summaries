@@ -20,7 +20,7 @@ let sum = v.iter().fold(0, |acc, x| acc + x);
 println!("The sum is: {}", sum);
 ```
 
-In this example, we create a vector `v` and use the `iter()` method to create an iterator over its elements. We then use the `fold()` method to iterate over the elements, and accumule the sum of all the elements.
+In this example, we create a vector `v` and use the `iter()` method to create an iterator over its elements. We then use the `fold()` method to iterate over the elements, and accumulate the sum of all the elements.
 
 Iterators can also be used in loops, as in the following example:
 

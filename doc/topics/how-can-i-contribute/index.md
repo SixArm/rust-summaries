@@ -13,7 +13,7 @@ Anyone can edit these guideposts to improve them, such as to edit an existing pa
 
 ## Git repository
 
-All the work is available via our GitHub repostory.
+All the work is available via our GitHub repository.
 
 Link: <https://github.com/sixarm/rust-guideposts>
 

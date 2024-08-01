@@ -1,4 +1,4 @@
-# Explict lifetimes
+# Explicit lifetimes
 
 Explicit lifetimes are atypical, and only needed when the Rust compiler can't figure out the lifetimes. For this, the developer must write explicit lifetimes so the compiler knows what to do.
 

@@ -4,7 +4,7 @@
 
 The `regex!` macro takes a string literal and returns an expression that evaluates to a `&'static Regex`. This macro can be useful to avoid the problem of compiling a regex on every loop iteration.
 
-The `regex!` macro capabilties are provided by the `once_cell` crate and `once-cell-regex` crate.
+The `regex!` macro capabilities are provided by the `once_cell` crate and `once-cell-regex` crate.
 
 Add to `Cargo.toml`:
 
@@ -32,6 +32,6 @@ The `once_cell` crate can provide optimizations in many more ways, such as safe 
 
 There are similar crates if you need related features: 
 
-* If you want asynchronous capabilties, try the `async_once_cell` crate.
+* If you want asynchronous capabilities, try the `async_once_cell` crate.
   
 * If you want spinlocks, try the `lazy_static` crate.

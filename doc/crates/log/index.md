@@ -22,9 +22,9 @@ use simple_logger::SimpleLogger;
 
 fn main() {
     SimpleLogger::new().env().init().unwrap();
-    info!("Example info messsage");
+    info!("Example info message");
     warn!("Example warn message");
-    error!("Example errror message");
+    error!("Example error message");
     debug!("Example debug message");
 }
 ```

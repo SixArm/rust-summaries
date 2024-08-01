@@ -139,7 +139,7 @@ Using `.expect()` is a half-measure that makes you feel good that "you didn't ju
 
 ## Use SAFETY
 
-Use `// SAFETY:` comments for unsafe and wherever you as cast there are a few other places where I want to be assured you did due dilligence outside of unsafe and as cast as well, but they are not coming to mind.
+Use `// SAFETY:` comments for unsafe and wherever you as cast there are a few other places where I want to be assured you did due diligence outside of unsafe and as cast as well, but they are not coming to mind.
 
 
 ## Help the code reviewer
@@ -178,7 +178,7 @@ A "crisp" interface I found successful was to encapsulate memory management stru
 
 Keep unsafe & FFIs in leaf modules:
 
-* If you plan on shipping production code in rust, there is a good chance you will take on a C/C++ dependencies. Miri is the main tool for finding UB in unsafe rust, which don't play nicely yet with FFIs. You will want to keep them in disjoint modules to use testing tools independently. You want them in the "leaf nodes" of your call stack and not weaving betweenSafe-Rust -> C -> Unsafe-Rust etc. Non-leafs should be safe rust.
+* If you plan on shipping production code in rust, there is a good chance you will take on a C/C++ dependencies. Miri is the main tool for finding UB in unsafe rust, which don't play nicely yet with FFIs. You will want to keep them in disjoint modules to use testing tools independently. You want them in the "leaf nodes" of your call stack and not weaving betweenSafe-Rust -> C -> Unsafe-Rust etc. Non-leaves should be safe rust.
 
 
 ## Use newtypes

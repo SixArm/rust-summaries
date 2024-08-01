@@ -1,6 +1,6 @@
 # syn crate - example of quote and parse_quote
 
-One way to use the `syn` crate and its `to_tokens` capabiltiy is to use the `quote!` macro to convert an instance to tokens, and the macro `parse_quote!` to conver the tokens to an instance.
+One way to use the `syn` crate and its `to_tokens` capability is to use the `quote!` macro to convert an instance to tokens, and the macro `parse_quote!` to convert the tokens to an instance.
 
 Example:
 
